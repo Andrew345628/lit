@@ -1,3 +1,3 @@
-import { HeaderComponent } from './components/HeaderComponent.js';
+import { MediatorElement } from './components/MediatorElement.js';
 
-export default HeaderComponent;
+export default MediatorElement;

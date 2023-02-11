@@ -1,3 +1,3 @@
-import HeaderComponent from "../header";
+import MediatorElement from "../header";
 
-window.customElements.define('header-component', HeaderComponent);
+customElements.define('mediator-element', MediatorElement);
