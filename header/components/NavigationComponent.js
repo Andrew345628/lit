@@ -5,11 +5,11 @@ export class NavigationComponent {
         const list = document.createElement('ul');
 
         let elements = [
-            'hi', 'hi', 'hi', 'hi'
+            'О нас', 'Купить контакты', 'Отзывы', 'Аккаунт'
         ];
 
         elements.forEach(function(item){
-            const element = document.createElement('li');
+            const element = document.createElement('span');
             element.insertAdjacentHTML("beforeend", item);
 
             list.appendChild(element);
